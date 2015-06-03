@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <link href="CSS/html-practise.css" rel="stylesheet" type="text/css">
+</head>
+<!--
+    CSS 可以通过以下方式添加到HTML中:
+
+    内联样式- 在HTML元素中使用"style" 属性
+    内部样式表 -在HTML文档头部 <head> 区域使用<style> 元素 来包含CSS
+    外部引用 - 使用外部 CSS 文件
+
+    文本对齐属性 text-align取代了旧标签 <center> 。
+
+    HTML 图像- Alt属性
+    alt 属性用来为图像定义一串预备的可替换的文本。
+    替换文本属性的值是用户定义的。
+-->
+<body>
+<h1>
+    我就是试试罢了。
+</h1>
+<!--
+    创建带有可供点击区域的图像地图。其中的每个区域都是一个超级链接。
+-->
+<img src="img/暴风截图201412277316281.jpg" alt="Sorry，这个图片挂了、" width="400px" height="200px" usemap="#love">
+<map name="love" >
+    <area shape="circle" coords="0,0,100" alt="第一页" href="basic-element.html">
+    <area shape="rect" coords="90,32,32,200" alt="第二页" href="link-to-in.html">
+</map>
+<hr>
+<h2>表格</h2>
+<table border="1">
+    <thead>么么哒嘛</thead>
+    <caption>标题不解释</caption>
+    <tr>
+        <th colspan="2">小婊砸我是表格头</th>
+        <th>服不服</th>
+    </tr>
+    <tr>
+        <th rowspan="2">服不服吧</th>
+        <td>萌萌哒</td>
+        <td>帅帅哒</td>
+    </tr>
+    <tr>
+        <td>可爱哒</td>
+        <td>啦啦啦</td>
+        <td>么么哒</td>
+    </tr>
+    <tr>
+        <th>拉拉了</th>
+        <td>呵呵哒</td>
+    </tr>
+    <tr>
+        <td>This cell contains a list
+            <ul>
+                <li>apples</li>
+                <li>bananas</li>
+                <li>pineapples</li>
+            </ul>
+        </td>
+        <td>HELLO</td>
+    </tr>
+</table>
+</body>
+</html>

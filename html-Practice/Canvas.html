@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+
+</head>
+<body>
+<canvas id="junWei" width="200" height="100" style="border: 1px solid #cc33cc"></canvas>
+<script>
+    var c=document.getElementById("junWei");
+    var ctx= c.getContext("2d");
+    ctx.fillStyle="#FF0000";
+    ctx.fillRect(0,0,150,75);
+</script>
+
+<canvas id="myCanvas" width="200" height="100" style="border:1px solid #c3c3c3;">
+    您的浏览器不支持 HTML5 canvas 标签。
+</canvas>
+
+<script>
+
+    var c=document.getElementById("myCanvas");
+    var ctx=c.getContext("2d");
+    ctx.beginPath();
+    ctx.arc(40,30,60,0,4*Math.PI);
+    ctx.stroke();
+
+</script>
+
+<canvas id="awSome" width="200" height="100"
+        style="border: 1px solid #0000ff;">
+    您的浏览器不支持 HTML5 canvas 标签。
+</canvas>
+<script>
+    var x=document.getElementById("awSome");
+    var xtx= x.getContext("2d");
+    xtx.moveTo(20,20);
+    xtx.lineTo(100,200);
+    xtx.stroke();
+</script>
+<canvas id="Tato" width="300" height="300" style="border: 1px solid #0000ff;"></canvas>
+<script>
+    var c = document.getElementById("Tato");
+    var ctx = c.getContext("2d");
+    ctx.font="30px Arial";
+    ctx.fillText("Hello World",10,50);
+</script>
+</body>
+</html>
